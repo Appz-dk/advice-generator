@@ -1,0 +1,9 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Dark-Grayish-Blue);
+  padding: var(--card-padding);
+  border-radius: var(--md-radius);
+  max-width: var(--card-max-width);
+}

@@ -1,0 +1,20 @@
+.button {
+  outline: none;
+  border: none;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(50%);
+  background-color: var(--Neon-Green);
+  /* padding: 1.125rem; */
+  width: 4rem;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: box-shadow 0.4s ease-in-out;
+}
+
+.button:hover {
+  box-shadow: 0 0 26px var(--Neon-Green);
+}

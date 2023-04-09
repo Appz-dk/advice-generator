@@ -15,7 +15,8 @@
   /* Utils */
   --card-padding: 1.25rem;
   --card-max-width: 30rem;
-  --md-radius: 0.5rem;
+  --md-radius: 0.75rem;
+  --flow-space: 1.25rem;
 }
 
 @media screen and (min-width: 40em) {

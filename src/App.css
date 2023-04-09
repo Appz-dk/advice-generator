@@ -13,6 +13,10 @@
   --ff-primary: "Manrope", sans-serif;
 }
 
-#root {
-  /* height: 100%; */
+.app {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: var(--Dark-Blue);
+  font-family: var(--ff-primary);
 }

@@ -1,11 +1,12 @@
-import './App.css'
+import "./App.css";
+import Advice from "./components/advice/Advice";
 
 function App() {
   return (
     <div className="app">
-      Advice generator
+      <Advice />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

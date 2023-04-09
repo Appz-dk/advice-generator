@@ -1,0 +1,14 @@
+.container {
+  /* TODO: Maybe do not use calc here */
+  margin-top: calc(var(--flow-space) * 1.5);
+}
+
+.divider {
+  content: url("../../assets/images/pattern-divider-mobile.svg");
+}
+
+@media screen and (min-width: 40em) {
+  .divider {
+    content: url("../../assets/images/pattern-divider-desktop.svg");
+  }
+}

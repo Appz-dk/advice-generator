@@ -1,3 +1,18 @@
+/* CSS Variables */
+:root {
+  /* Primary */
+  --Light-Cyan: hsl(193, 38%, 86%);
+  --Neon-Green: hsl(150, 100%, 66%);
+  /* Neutral */
+  --Grayish-Blue: hsl(217, 19%, 38%);
+  --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+  --Dark-Blue: hsl(218, 23%, 16%);
+
+  /* Font */
+  --fs-qoute: 1.75rem;
+  --ff-primary: "Manrope", sans-serif;
+}
+
 #root {
   /* height: 100%; */
 }

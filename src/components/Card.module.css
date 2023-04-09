@@ -1,10 +1,14 @@
 .card {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: var(--Dark-Grayish-Blue);
-  padding: var(--card-padding);
+  padding-block: var(--card-padding-block);
+  padding-inline: var(--card-padding-inline);
   border-radius: var(--md-radius);
   max-width: var(--card-max-width);
+  width: 90%;
+  padding-bottom: calc(var(--card-padding-block) * 1.5);
 }
